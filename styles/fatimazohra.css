@@ -1,0 +1,26 @@
+ul {
+	padding:0;
+	list-style-type:none;
+/*hiermee krijg je geen puntjes links aan de zijkant*/
+
+
+display:flex;
+	gap:1em;
+	overflow-x:auto; 
+
+}
+
+
+li {
+	width:min(80%, 24em);
+	flex-shrink:0;
+	
+	scroll-snap-align: center;
+/*Hiermee krijg je 1 foto in het midden als je scrolt*/
+}
+
+img {
+	display:block;
+	width:100%;
+
+}
