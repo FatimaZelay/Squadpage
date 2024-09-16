@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    background-color: #090833;
+    padding-left: 5%;
+    padding-right: 5%;
+    box-sizing: border-box;
+}
+/*Met de padding-left en right heb ik ruimte gecreed van de randen van rechts en links*/
+
+.navbar{
+    height: 12%;
+    display: flex;
+    align-items: center;
+}
+
+.logo{
+    width: 100px;
+    cursor: pointer;
+}
+/*door de cursor: pointer krijg je een hand als je met je muis over de logo gaat.*/
+
+nav{
+    flex: 1;
+    text-align: right;
+}
+
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 10px;
+}
+/*Met list: style none krijg je geen puntjes op je lijst*/
+/*nav ul li is voor de linkjes ' HOME' 'AMSTELCAMPUS' en 'OVER ONS'*/
+
+nav ul li a{
+ text-decoration: none;
+ color: #fff;
+ font-size: 12;   
+}
+/*Hiermee heb ik de opmaak gemaakt van de tekst in de linkjes, kleur: wit, geen onderlijning en tekstgrootte 12*/
+
+main{
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr;
+    gap: 5px;    
+    padding-top: 10%;
+    
+}
+
+header{
+    color: #fff;
+    text-align: center;
+}
+
+article {
+    background-color: #C5ddef;
+    padding: 1em;
+    text-align: center;
+    border-radius: 18px;
+    grid-row-start: 2;
+    grid-row-end: 4;
+    max-width: 200px;;
+    transition: transform 0.5;
+    cursor: pointer;
+}
+
+article:hover{
+    transform:translateY(-10px)
+}
+
+/*Als je op de article klikt gaat het met 10px omhoog en omlaag*/
+
+a {
+    text-decoration: none;    
+}
+
+.images-class{
+    width: 300px;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+
+/*.colom{
+    display: flex;
+    align-items: center;
+    padding-left: 30%;
+    padding-right: 25%;
+    color: #fff;
+    font-size: 18px;
+}
+
+.card{
+    width: 200px;
+    height: 230px;
+    display: inline-block;
+    border-radius: 16px;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    background-color: #C6C5EF;
+}
+*/
