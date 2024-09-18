@@ -1,6 +1,6 @@
 # Squad page ROKAFA
  
-Welkom in onze squadpage. Hierin zie je hoe Karima, Fatima en Robby hebben gewerkt en hoe zij uiteindelijk deze leuke squadpage hebben gecreeerd.
+Welkom in onze squadpage. Hierin zie je hoe Karima, Fatima en Robby hebben gewerkt en hoe zij uiteindelijk deze leuke squadpage hebben gecreëerd.
  
 Allereest zijn wij schetsen gaan maken om uiteindelijk een definitieve schets uit te kiezen. Vervolgens hebben wij een breakdown schets gemaakt om duidelijk voor ogen wat voor HTML en CSS elementen je nodig hebt voor je website. Zo begin je niet blind aan een website maar weet je van tevoren wat er gedaan moet worden. Als het ware onderzoek je wat voor techniek nodig is om een ontwerp te realiseren.
  
@@ -9,7 +9,7 @@ Allereest zijn wij schetsen gaan maken om uiteindelijk een definitieve schets ui
  
 
 
-Na het  maken van de handmatige schetsen zijb we begonnen met het maken van de digitale schetsen die we op figma hebben gemaakt. 
+Na het  maken van de handmatige schetsen zijn we begonnen met het maken van de digitale schetsen die we op figma hebben gemaakt. 
 
 Als eerst zijn wij begonnen met het schetsen van de squadpage op de small version (phone version). Hierdoor kregen wij een visie van hoe het eindresultaat er zou uitzien.
  
