@@ -30,6 +30,8 @@ Uiteindelijk hebben wij gekozen voor de laatste kleurenpalette. De kleur donkerb
  
 Om origineel te blijven hebben wij samen met onze groep gedacht om quotes bij elke klasgenoot toe te voegen. We hebben een oproep gemaakt via teams waardoor iedereen een unieke quote kon sturen.
 
+<img width="565" alt="Screenshot 2024-09-18 at 10 20 41" src="https://github.com/user-attachments/assets/63c8914f-0d8f-4e7a-8023-8d8f98359a89">
+
 
 ## Hoe zijn we tot het resultaat gekomen?
 
@@ -38,7 +40,8 @@ De bedoeling is dat elk teamlid vanuit hetzelfde ontwerp zijn eigen website maak
 Ontwerp en maak met een team een Squad Page met HTML, CSS en JS.
  
 De instructie van deze leertaak staan in de [INSTRUCTIONS.md](https://github.com/fdnd-task/your-tribe-squad-page/blob/main/docs/INSTRUCTIONS.md)
- 
+
+
 ## Licentie
  
 This project is licensed under the terms of the [MIT license](./LICENSE).
