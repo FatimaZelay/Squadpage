@@ -6,13 +6,14 @@
 
 .container {
     width: 100%;
-    height: 100vh;
+    height: 200vh;
     background-color: #090833;
     padding-left: 5%;
     padding-right: 5%;
     box-sizing: border-box;
 }
 /*Met de padding-left en right heb ik ruimte gecreed van de randen van rechts en links*/
+
 
 .navbar{
     height: 12%;
@@ -44,14 +45,21 @@ nav ul li a{
  color: #fff;
  font-size: 12;   
 }
-/*Hiermee heb ik de opmaak gemaakt van de tekst in de linkjes, kleur: wit, geen onderlijning en tekstgrootte 12*/
+/*Hiermee heb ik de opmaak gemaakt van de tekst in de navbar kleur: wit, geen onderlijning en tekstgrootte 12*/
 
 main{
     display: grid;
-    grid-template-columns: 2fr 2fr 2fr;
+    grid-template-columns: 1fr 1fr 1fr; /*standaard layout*/
     gap: 5px;    
     padding-top: 10%;
-    
+}
+
+@media only screen and (max-width: 430px) {
+    main{
+        display: grid;
+        grid-template-columns: 1fr; /*voor kleinere schermen: bij een breakdownpoint van 250px komen de plaatjes onder elkaar */
+        place-items: center;
+    }
 }
 
 header{
@@ -64,9 +72,9 @@ article {
     padding: 1em;
     text-align: center;
     border-radius: 18px;
-    grid-row-start: 2;
-    grid-row-end: 4;
-    max-width: 200px;;
+    /* grid-row-start: 2; */
+    /* grid-row-end: 4; */
+    max-width: 200px;
     transition: transform 0.5;
     cursor: pointer;
 }
@@ -82,9 +90,10 @@ a {
 }
 
 .images-class{
-    width: 300px;
+    max-width: 300px;
     padding-left: 20%;
     padding-right: 20%;
+    height: auto;
 }
 
 
