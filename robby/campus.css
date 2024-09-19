@@ -41,6 +41,17 @@ nav ul li a{
 }
 /*Hiermee heb ik de opmaak gemaakt van de tekst in de navbar kleur: wit, geen onderlijning en tekstgrootte 12*/
 
+@media only screen and (max-width: 480px) {
+    nav{
+        font-size: 10px;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+   .logo{
+        width: 100px;
+   }
+}
 
 h1 {
     text-transform: uppercase; 
@@ -50,6 +61,13 @@ h1 {
     padding-top: 20px;
     padding-right: 150px;
 }
+
+@media only screen and (max-width: 480px) {
+    h1{
+        font-size: 20px;
+        text-align: center;
+    }
+ }
 
 main {
     width: 100%;
@@ -70,7 +88,7 @@ main {
     
 }
 
-@media only screen and (max-width: 430px) {
+@media only screen and (max-width: 480px) {
     .photos{
         display: grid;
         grid-template-columns: 1fr 1fr; /*voor middelgrote schermen: bij een breakdownpoint van 250px komen de plaatjes onder elkaar */
