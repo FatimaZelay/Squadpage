@@ -32,7 +32,7 @@ header{
   float: left;
   padding-top: 3%;
 }
-/*door de cursor: pointer krijg je een hand als je met je muis over de logo gaat.*/
+/*door de cursor:: pointer krijg je een hand als je met je muis over de logo gaat.*/
 
 @media only screen and (max-width: 480px) {
   .logo{
