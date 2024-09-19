@@ -6,7 +6,7 @@
 
 .container {
     width: 100%;
-    height: 200vh;
+    height: 100vh;
     background-color: #090833;
     padding-left: 5%;
     padding-right: 5%;
@@ -16,20 +16,24 @@
 
 
 .navbar{
-    height: 12%;
+    height: 20%;
     display: flex;
     align-items: center;
+
 }
 
 .logo{
-    width: 100px;
+    width: 150px;
     cursor: pointer;
+    padding-left: 5%;
+    float: left;
 }
 /*door de cursor: pointer krijg je een hand als je met je muis over de logo gaat.*/
 
 nav{
     flex: 1;
     text-align: right;
+    padding-top: 40px;
 }
 
 nav ul li{
@@ -46,6 +50,8 @@ nav ul li a{
  font-size: 12;   
 }
 /*Hiermee heb ik de opmaak gemaakt van de tekst in de navbar kleur: wit, geen onderlijning en tekstgrootte 12*/
+
+
 
 main{
     display: grid;
@@ -67,13 +73,17 @@ header{
     text-align: center;
 }
 
+h1 {
+    text-transform: uppercase; 
+    color:#fff;  
+
+}
+
 article {
     background-color: #C5ddef;
     padding: 1em;
     text-align: center;
     border-radius: 18px;
-    /* grid-row-start: 2; */
-    /* grid-row-end: 4; */
     max-width: 200px;
     transition: transform 0.5;
     cursor: pointer;
@@ -90,10 +100,14 @@ a {
 }
 
 .images-class{
-    max-width: 300px;
-    padding-left: 20%;
-    padding-right: 20%;
+    width: 300px;
     height: auto;
+    padding-top: 100px;
+    float: right; /*plaatsen van de afbeeldingen aan de linkerkant*/
+}
+
+.paragraph{
+    color:#fff;
 }
 
 
