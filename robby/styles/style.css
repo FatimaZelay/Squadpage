@@ -26,9 +26,9 @@ header{
 
 /* opmaak voor logo */
 .logo{
-  width: 200px;
+  width: px;
   cursor: pointer;
-  padding-left: 5%;
+  align-items: left;
   float: left;
   padding-top: 3%;
 }
@@ -82,6 +82,23 @@ body{
   height: 35em;
   display: flex;
   align-items: center;
+}
+
+h1 {
+  text-transform: uppercase; 
+  color:#fff;  
+  text-align: center;
+  font-size: 35px;
+  padding-top: 20px;
+  padding-right: 15px;
+}
+
+@media only screen and (max-width: 480px) {
+  h1{
+      font-size: 20px;
+      text-align: center;
+      padding-left: 120px;
+  }
 }
 
 .card{
