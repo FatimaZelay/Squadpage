@@ -49,24 +49,16 @@ nav ul li a{
  color: #fff;
  font-size: 12;   
 }
-/*Hiermee heb ik de opmaak gemaakt van de tekst in de navbar kleur: wit, geen onderlijning en tekstgrootte 12*/
 
-
-
-main{
+main{ 
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr; /*standaard layout*/
-    gap: 5px;    
-    padding-top: 10%;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 5px;
+    padding
+    
+    /*Hiermee heb ik de opmaak gemaakt van de tekst in de linkjes, kleur: wit, geen onderlijning en tekstgrootte 12*/
 }
 
-@media only screen and (max-width: 430px) {
-    main{
-        display: grid;
-        grid-template-columns: 1fr; /*voor kleinere schermen: bij een breakdownpoint van 250px komen de plaatjes onder elkaar */
-        place-items: center;
-    }
-}
 
 header{
     color: #fff;
@@ -84,7 +76,7 @@ article {
     padding: 1em;
     text-align: center;
     border-radius: 18px;
-    max-width: 200px;
+    max-width: 200px;;
     transition: transform 0.5;
     cursor: pointer;
 }
