@@ -4,8 +4,8 @@
 
 :root{
   --font: 'Poppins', sans-serif;
-  --color: #9176FF;
-  --bg-color: #f4f4f4;
+  --color: #c5ddef;
+  --bg-color: #090833;
 }
 
 *{
@@ -14,7 +14,50 @@
   box-sizing: border-box;
 }
 
-/* voor de nav bar */
+/* opmaak voor de header */
+header{
+  height: 20%;
+  display: flex;
+  align-items: center;
+  position: absolute; 
+  top: 0;
+}
+
+
+/* opmaak voor logo */
+.logo{
+  width: 200px;
+  cursor: pointer;
+  padding-left: 5%;
+  float: left;
+  padding-top: 3%;
+}
+/*door de cursor: pointer krijg je een hand als je met je muis over de logo gaat.*/
+
+
+/* opmaak voor de nav bar */
+nav{
+  flex: 1;
+  text-align: right;
+  padding-top: 10px;
+  padding-right: 10px;
+  font-size: 20;
+}
+
+nav ul li{
+  list-style: none;
+  display: inline-block;
+  margin-left: 10px;
+}
+/*Met list: style none krijg je geen puntjes op je lijst*/
+/*nav ul li is voor de linkjes ' HOME' 'AMSTELCAMPUS' en 'OVER ONS'*/
+
+nav ul li a{
+text-decoration: none;
+color: #fff;
+}
+/*Hiermee heb ik de opmaak gemaakt van de tekst in de navbar kleur: wit, geen onderlijning en tekstgrootte 12*/
+
 
 body{
   font-family: var(--font);
@@ -22,7 +65,6 @@ body{
   justify-content: center;
   align-items: center;
   height: 100vh;
-
   background-color: var(--bg-color);
 }
 

@@ -10,7 +10,7 @@ body {
 }
 
 .logo{
-    width: 200px;
+    width: 250px;
     cursor: pointer;
     padding-left: 5%;
     float: left;
@@ -23,8 +23,8 @@ nav{
     flex: 1;
     text-align: right;
     padding-top: 40px;
-    padding-right: 10px;
-    font-size: 20;
+    padding-right: 40px;
+    font-size: 20px;
 }
 
 nav ul li{
@@ -46,7 +46,7 @@ h1 {
     text-transform: uppercase; 
     color:#fff;  
     text-align: center;
-    font-size: 14;
+    font-size: 40px;
     padding-top: 20px;
     padding-right: 150px;
 }
