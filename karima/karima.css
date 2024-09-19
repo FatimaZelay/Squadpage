@@ -14,6 +14,7 @@
 }
 /*Met de padding-left en right heb ik ruimte gecreed van de randen van rechts en links*/
 
+
 .navbar{
     height: 12%;
     display: flex;
@@ -44,15 +45,30 @@ nav ul li a{
  color: #fff;
  font-size: 12;   
 }
-/*Hiermee heb ik de opmaak gemaakt van de tekst in de linkjes, kleur: wit, geen onderlijning en tekstgrootte 12*/
 
-main{
+main{ 
     display: grid;
-    grid-template-columns: 2fr 2fr 2fr;
-    gap: 5px;    
-    padding-top: 10%;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 5px;
+    padding
     
+    /*Hiermee heb ik de opmaak gemaakt van de tekst in de linkjes, kleur: wit, geen onderlijning en tekstgrootte 12*/
+
+/* .grid-container{
+     display: grid;
+     perspective:15em;
+     transition-duration:1s;
+     grid-area:1/1;
+     backface-visibility:hidden;
+    border: 1px snow;
+
+    grid-template-columns: 250px 250px 250px ;
+    repeat: (300px, 1fr);
+    gap: 15px;    
+    justify-content: center;
 }
+     */
+
 
 header{
     color: #fff;
@@ -64,8 +80,6 @@ article {
     padding: 1em;
     text-align: center;
     border-radius: 18px;
-    grid-row-start: 2;
-    grid-row-end: 4;
     max-width: 200px;;
     transition: transform 0.5;
     cursor: pointer;
