@@ -4,11 +4,11 @@
     font-family: 'Roboto', sans-serif;
     box-sizing: border-box;
 }
-
+ 
 body {
     background-color: #090833;
 }
-
+ 
 .logo{
     width: 250px;
     cursor: pointer;
@@ -17,8 +17,8 @@ body {
     padding-top: 3%;
 }
 /*door de cursor: pointer krijg je een hand als je met je muis over de logo gaat.*/
-
-
+ 
+ 
 nav{
     flex: 1;
     text-align: right;
@@ -26,7 +26,7 @@ nav{
     padding-right: 40px;
     font-size: 20px;
 }
-
+ 
 nav ul li{
     list-style: none;
     display: inline-block;
@@ -34,27 +34,45 @@ nav ul li{
 }
 /*Met list: style none krijg je geen puntjes op je lijst*/
 /*nav ul li is voor de linkjes ' HOME' 'AMSTELCAMPUS' en 'OVER ONS'*/
-
+ 
 nav ul li a{
  text-decoration: none;
  color: #fff;
 }
 /*Hiermee heb ik de opmaak gemaakt van de tekst in de navbar kleur: wit, geen onderlijning en tekstgrootte 12*/
-
-
+ 
+@media only screen and (max-width: 480px) {
+    nav{
+        font-size: 10px;
+    }
+}
+ 
+@media only screen and (max-width: 480px) {
+   .logo{
+        width: 100px;
+   }
+}
+ 
 h1 {
-    text-transform: uppercase; 
+    text-transform: uppercase;
     color:#fff;  
     text-align: center;
     font-size: 40px;
     padding-top: 20px;
     padding-right: 150px;
 }
-
+ 
+@media only screen and (max-width: 480px) {
+    h1{
+        font-size: 20px;
+        text-align: center;
+    }
+ }
+ 
 main {
     width: 100%;
 }
-
+ 
 .photos{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr; /*standaard layout*/
@@ -67,17 +85,17 @@ main {
     justify-content: center;
     color:white;
     list-style: none;
-    
+   
 }
-
-@media only screen and (max-width: 430px) {
+ 
+@media only screen and (max-width: 480px) {
     .photos{
         display: grid;
         grid-template-columns: 1fr 1fr; /*voor middelgrote schermen: bij een breakdownpoint van 250px komen de plaatjes onder elkaar */
         place-items: center;
     }
 }
-
+ 
 @media only screen and (max-width: 250px) {
     .photos{
         display: grid;
@@ -90,20 +108,20 @@ img{
     border-radius: 10px;
     cursor: pointer;
 }
-
+ 
 img:hover{
     transform: translateY(-10px);
 }
-
+ 
 h3{
     text-align: center;
 }
-
-.pa
-
+ 
+ 
 .footer p{
     margin-top: 1em;
     color: #fff;
     text-align: center;
     padding-bottom: 30px;
 }
+ 
