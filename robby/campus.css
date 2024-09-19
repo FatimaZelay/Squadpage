@@ -10,7 +10,7 @@ body {
 }
 
 .logo{
-    width: 250px;
+    width: 200px;
     cursor: pointer;
     padding-left: 5%;
     float: left;
@@ -57,7 +57,7 @@ h1 {
     text-transform: uppercase; 
     color:#fff;  
     text-align: center;
-    font-size: 40px;
+    font-size: 35px;
     padding-top: 20px;
     padding-right: 150px;
 }
@@ -85,7 +85,6 @@ main {
     justify-content: center;
     color:white;
     list-style: none;
-    
 }
 
 @media only screen and (max-width: 480px) {
@@ -117,7 +116,9 @@ h3{
     text-align: center;
 }
 
-.pa
+.paragraph{
+    text-align: center;
+}
 
 .footer p{
     margin-top: 1em;
