@@ -34,6 +34,11 @@ header{
 }
 /*door de cursor: pointer krijg je een hand als je met je muis over de logo gaat.*/
 
+@media only screen and (max-width: 480px) {
+  .logo{
+       width: 100px;
+  }
+}
 
 /* opmaak voor de nav bar */
 nav{
