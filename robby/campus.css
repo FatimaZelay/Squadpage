@@ -41,13 +41,13 @@ nav ul li a{
 }
 /*Hiermee heb ik de opmaak gemaakt van de tekst in de navbar kleur: wit, geen onderlijning en tekstgrootte 12*/
 
-@media only screen and (max-width: 480px) {
+@media only screen and (min-width: 480px) { /*Dit zorgt ervoor dat een element altijd ten minste de breedte van min-width(480px) behoudt.*/
     nav{
         font-size: 10px;
     }
 }
 
-@media only screen and (max-width: 480px) {
+@media only screen and (min-width: 480px) { /*Dit zorgt ervoor dat een element altijd ten minste de breedte van min-width(480px) behoudt.*/
    .logo{
         width: 100px;
    }
@@ -62,8 +62,8 @@ h1 {
     padding-right: 150px;
 }
 
-@media only screen and (min-width: 480px) {
-    h1{
+@media only screen and (min-width: 480px) { /*Dit zorgt ervoor dat een element altijd ten minste de breedte van min-width(480px) behoudt.*/
+    h1{ 
         font-size: 20px;
         text-align: center;
         padding-left: 120px;
